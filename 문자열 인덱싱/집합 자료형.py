@@ -1,0 +1,27 @@
+s1 = set([1,2,3])
+print(s1)
+s1 = {1,2,3}
+print(s1)
+L= [1,2,2,3,3]
+newlist = list(set(L))
+print(newlist)
+s1 = set("hello")
+print(s1)
+s1 = set([1,2,3,4,5,6,7,8])
+s2 = set([4,5,6,7,8,9,10,11])
+print(s1 & s2)
+print(s1.intersection(s2))
+print(s1 | s2)
+print(s1.union(s2))
+print(s1 - s2)
+print(s2 - s1)
+print(s2.difference(s1))
+print(s1.difference(s2))
+s1.add(123)
+print(s1)
+s1.update([23,14,54,321])
+print(s1)
+s1.remove(1)
+print(s1)
+
+
